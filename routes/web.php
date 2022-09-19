@@ -15,5 +15,3 @@ use App\Http\Controllers\FrontendController;
 */
 
 Route::get('/', [FrontendController::class, 'index']);
-
-Route::resource('companies', CompanyCRUDController::class);
